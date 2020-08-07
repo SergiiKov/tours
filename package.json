@@ -1,0 +1,23 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergiiKov/tours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergiiKov/tours/issues"
+  },
+  "homepage": "https://github.com/SergiiKov/tours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
